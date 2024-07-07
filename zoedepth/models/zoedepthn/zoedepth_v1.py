@@ -26,7 +26,7 @@ import itertools
 
 import torch
 import torch.nn as nn
-from zoedepth.models import DepthModel
+from zoedepth.models.depth_model import DepthModel
 from zoedepth.models.base_models import MidasCore
 from zoedepth.models.layers import AttractorLayer, AttractorLayerUnnormed
 from zoedepth.models.layers import ConditionalLogBinomial
