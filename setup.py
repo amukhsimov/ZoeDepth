@@ -14,7 +14,8 @@ if __name__ == '__main__':
         url='https://github.com/amukhsimov/human-parser-comfyui-node',
         packages=['zoedepth', 'zoedepth.models', 'zoedepth.utils',
                   'zoedepth.models.base_models', 'zoedepth.models.layers',
-                  'zoedepth.models.zoedepth', 'zoedepth.models.zoedepth_nk'],
+                  'zoedepth.models.zoedepthn', 'zoedepth.models.zoedepth_nk',
+                  'zoedepth.models.depth_model'],
         # package_data={'schp.modules': ['src/*', 'src/utils/*']},
         # include_package_data=True,
         classifiers=[
