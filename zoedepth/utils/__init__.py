@@ -23,3 +23,4 @@
 # File author: Shariq Farooq Bhat
 
 from .misc import colorize
+from .model_io import load_state_from_resource

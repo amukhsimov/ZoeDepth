@@ -32,7 +32,7 @@ from zoedepth.models.layers import AttractorLayer, AttractorLayerUnnormed
 from zoedepth.models.layers import ConditionalLogBinomial
 from zoedepth.models.layers import (Projector, SeedBinRegressor,
                                             SeedBinRegressorUnnormed)
-from zoedepth.models import load_state_from_resource
+from zoedepth.utils import load_state_from_resource
 
 
 class ZoeDepth(DepthModel):
