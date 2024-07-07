@@ -22,3 +22,4 @@
 
 # File author: Shariq Farooq Bhat
 
+from .midas import MidasCore

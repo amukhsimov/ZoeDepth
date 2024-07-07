@@ -12,7 +12,7 @@ if __name__ == '__main__':
         author_email='aka.mukhsimov@gmail.com',
         keywords='computer vision, human part segmentation',
         url='https://github.com/amukhsimov/human-parser-comfyui-node',
-        packages=['zoedepth', 'zoedepth.models', 'zoedepth.utils'],
+        packages=['zoedepth', 'zoedepth.models', 'zoedepth.utils', 'zoedepth.models.base_models', 'zoedepth.models.layers'],
         # package_data={'schp.modules': ['src/*', 'src/utils/*']},
         # include_package_data=True,
         classifiers=[

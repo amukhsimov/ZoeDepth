@@ -24,3 +24,5 @@
 
 from .zoedepth import ZoeDepth
 from .zoedepth_nk import ZoeDepthNK
+from .depth_model import DepthModel
+from .model_io import load_state_from_resource
