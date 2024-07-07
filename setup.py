@@ -15,7 +15,7 @@ if __name__ == '__main__':
         packages=['zoedepth', 'zoedepth.models', 'zoedepth.utils',
                   'zoedepth.models.base_models', 'zoedepth.models.layers',
                   'zoedepth.models.zoedepthn', 'zoedepth.models.zoedepth_nk',
-                  'zoedepth.models.depth_model'],
+                  'zoedepth.models.depth_model', 'zoedepth.utils.easydict'],
         # package_data={'schp.modules': ['src/*', 'src/utils/*']},
         # include_package_data=True,
         classifiers=[

@@ -24,3 +24,4 @@
 
 from .misc import colorize
 from .model_io import load_state_from_resource
+from .config import get_config
