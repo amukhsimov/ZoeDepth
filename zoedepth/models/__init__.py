@@ -22,3 +22,5 @@
 
 # File author: Shariq Farooq Bhat
 
+from .zoedepth import ZoeDepth
+from .zoedepth_nk import ZoeDepthNK
