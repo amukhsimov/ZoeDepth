@@ -16,8 +16,8 @@ if __name__ == '__main__':
                   'zoedepth.models.base_models', 'zoedepth.models.layers',
                   'zoedepth.models.zoedepthn', 'zoedepth.models.zoedepth_nk',
                   'zoedepth.models.depth_model', 'zoedepth.utils.easydict'],
-        # package_data={'schp.modules': ['src/*', 'src/utils/*']},
-        # include_package_data=True,
+        package_data={'zoedepth.models.zoedepth_nk': ['*.json']},
+        include_package_data=True,
         classifiers=[
             'Development Status :: 5 - Production/Stable',
             'License :: OSI Approved :: Apache Software License',
