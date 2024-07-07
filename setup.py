@@ -30,7 +30,8 @@ if __name__ == '__main__':
         ],
         license='Apache License 2.0',
         install_requires=[
-            # 'torch==2.3.0',
+            'torch==2.3.0',
+            'timm==0.6.7'
             # 'opencv-python==4.8.0.76',
             # 'Ninja==1.11.1.1',
             # 'numpy==1.25.2'
