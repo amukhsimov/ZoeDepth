@@ -381,7 +381,7 @@ def get_config(model_name, mode='train', dataset=None, **overwrite_kwargs):
     config = update_model_config(config, mode, model_name)
 
     # update with model version specific config
-    version_name = overwrite_kwargs.get("version_name", config["version_name"])
+    version_name = overwrite_kwargs.get("version_name", None)  # config["version_name"])
     config = update_model_config(config, mode, model_name, version_name)
 
     # update with config version if specified
